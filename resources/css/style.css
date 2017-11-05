@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  text-align: center;
+  display: block;
+}
+ header {
+   width: 100%;
+   position: fixed;
+   z-index: 1;
+   height: 69px;
+   background-color: black;
+   border-bottom: 1px solid seashell;
+   align-items: center;
+ }
+ nav {
+   text-align: right;
+   flex-grow: 1;
+ }
+ nav span {
+     display: inline-block;
+     padding: 20px 10px;
+ }
+ a {
+     color: seashell;
+     cursor: auto;
+     text-decoration: underline;
+ }
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+div {
+    display: block;
+  }
+#mission .image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+}
+.image-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 70;
+  font-family: Helvetica;
+  text-align: center;
+  }
+.mission-text {
+  /* justify-content: center;
+  flex-wrap: wrap;*/
+  background-color: black;
+  width: 100%;
+  margin: auto;
+  height: 130px;
+}
+h2 h4 {
+  display: block;
+  margin: 0;
+  padding: 5px;
+}
+#month {
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    padding-top: 70px;
+}
+.month-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.teas {
+  padding: 5px;
+}
+.teas img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+.teas span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#locations {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    padding-top: 70px;
+    margin: auto;
+}
+h2 {
+    display: block;
+    font-weight: bold;
+    width: 1200px;
+    text-align: center;
+}
+.locations .flex-container {
+    margin: auto;
+    width: 1200px;
+}
+.flex-container.locations {
+    padding-top: 5px;
+}
+.location {
+  padding: 10px 20px;
+  margin: auto;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h3 {
+    display: block;
+    font-weight: bold;
+    padding: 10px;
+}
+#contact {
+  height: 200px;
+  padding-top: 70px;
+}
+
+h5 {
+    display: block;
+    font-weight: bold;
+    width: 1200px;
+    height: 10px;
+
+      }
+footer {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 5px;
+}
